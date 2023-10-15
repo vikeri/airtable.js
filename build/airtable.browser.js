@@ -2189,13 +2189,13 @@ var coreJsData = root['__core-js_shared__'];
 module.exports = coreJsData;
 
 },{"./_root":72}],40:[function(require,module,exports){
-(function (global){(function (){
+(function (global){
 /** Detect free variable `global` from Node.js. */
 var freeGlobal = typeof global == 'object' && global && global.Object === Object && global;
 
 module.exports = freeGlobal;
 
-}).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}],41:[function(require,module,exports){
 var isKeyable = require('./_isKeyable');
 
